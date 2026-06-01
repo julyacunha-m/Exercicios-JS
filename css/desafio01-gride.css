@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: #666;
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-top: 2px solid red;
+    padding-top: 15px;
+    letter-spacing: 3px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.principal {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.principal img {
+    width: 260px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.principal h2 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.destaque img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.destaque p {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.noticia {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.noticia img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.noticia p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
